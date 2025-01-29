@@ -1,0 +1,9 @@
+framework module Llama {
+    umbrella header "llama.h"
+    header "ggml.h"
+    header "ggml-cpu.h"
+    header "ggml-backend.h"
+    header "ggml-alloc.h"
+    export *
+    module * { export * }
+}
